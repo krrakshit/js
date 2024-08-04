@@ -2,4 +2,4 @@
  console.log(document.body.lastChild)
  console.log(document.body.childNodes)
  
- 
+ console.log(a.firstChild.nextelement)
