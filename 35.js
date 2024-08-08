@@ -8,3 +8,6 @@ setTimeout(function(){
 },2000)
 console.log("My name is "+"Hello three")
 console.log(promise)
+
+
+
