@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+
+#bdy{
+    
+    background: red;
+    text-shadow: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: aqua;
+    border-radius: 30px;
+    text-decoration: double;
+    text-rendering: optimizeLegibility;
+    
+}
