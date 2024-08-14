@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        @media only screen and (max-width:455px){
+            body{
+                background-color: blue;
+            }
+            boxex{
+                flex-direction: column;
+            }
+        }
+        .boxex{
+            display: flex;
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            margin: 3px;
+            padding: 3px;
+            background-color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <div>Hey it is of red color</div>
+    <div class="boxex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
